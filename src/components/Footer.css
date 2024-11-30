@@ -1,0 +1,53 @@
+.footer {
+  background-color: #222c28;
+  color: #fff; /* White text color */
+  padding: 40px 0;
+  text-align: center;
+  font-size: 0.875rem; /* Smaller font size for the footer */
+  margin-top: 200px;
+}
+
+.footer p {
+  margin-bottom: 16px;
+  font-weight: 300;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.footer ul li {
+  display: flex;
+  font-size: 0.875rem;
+  align-items: center;
+  margin-bottom: 15px;
+  color: #ddd; /* Light gray color for links */
+  cursor: pointer;
+  transition: color 0.3s ease;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  
+}
+
+.footer ul li:hover {
+  color: #ff9900; /* Hover effect with Amazon's yellow */
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 20px 0;
+  }
+
+  .footer ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .footer ul li {
+    font-size: 1rem;
+  }
+}

@@ -1,0 +1,65 @@
+.flash-deals {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #fff; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .flash-deals h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 16px;
+    color: #232f3e; 
+    text-align: center;
+  }
+  
+  .deals-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); 
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .deal-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #f7f7f7; 
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    transition: transform 0.3s, box-shadow 0.3s; 
+  }
+  
+  .deal-card:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .deal-card img {
+    width: 124px; 
+    height: 120px;
+    object-fit: cover; 
+    margin-bottom: 12px;
+    border-radius: 8px; }
+  
+  .deal-card p {
+    font-size: 1rem;
+    color: #333;
+    margin: 4px 0;
+  }
+  
+  .deal-card p:last-child {
+    font-weight: bold;
+    color: #b12704; 
+  }
+  
+  @media (max-width: 768px) {
+    .deals-grid {
+      grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); 
+    }
+  }
+  

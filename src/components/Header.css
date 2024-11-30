@@ -1,0 +1,82 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #222c28;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.logo {
+  background-image: url('https://img.freepik.com/premium-vector/ecommerce-logo-template_658705-117.jpg?w=826');
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%; 
+  cursor: pointer;
+  border: 2px solid transparent; 
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+  width: 500px; }
+
+.search-container input[type="text"] {
+  width: 100%;
+  padding: 10px 60px 10px 20px; 
+  border-radius: 30px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.search-container input[type="text"]:focus {
+  outline: 2px solid #ff9900; 
+}
+
+.search-container .search-button {
+  position: absolute;
+  top: 50%;
+  right: 3px; 
+  transform: translateY(-50%);
+  background-color: #ff9900; 
+  border: none;
+  width: 60px; 
+  height: 40px; 
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.3s ease;
+}
+
+.search-container .search-button:hover {
+  background-color: #e68900; 
+}
+
+.user-options {
+  display: flex;
+  gap: 10px;
+}
+
+.user-options button {
+  background-color: #ff9900;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 16px;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.user-options button:hover {
+  background-color: #e68900;
+}

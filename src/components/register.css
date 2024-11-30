@@ -1,0 +1,84 @@
+.fr {
+  width: 450px;
+  min-height: 550px; 
+  border-radius: 5px;
+  margin: 2% auto;
+  box-shadow: 0 9px 50px hsla(0, 0%, 7%, 0.31);
+  padding: 2%;
+  background-image: linear-gradient(-225deg, #2f4a3f 50%, #fac55c 50%);
+}
+
+/* Header styling */
+/* header {
+  margin: 2% auto 10% auto;
+  text-align: center;
+} */
+
+header h2 {
+  font-size: 250%;
+  font-family: 'Playfair Display', serif;
+  color: #0f0f0f;
+}
+
+header p {
+  letter-spacing: 0.05em;
+}
+
+.input-item {
+  background: #fff; 
+  color: #111111;
+  padding: 14.5px 0px 15px 9px;
+  border-radius: 5px 0px 0px 5px;
+}
+
+#eye {
+  background: #fff;
+  color: #131212;
+  margin: 5.9px 0 0 0;
+  margin-left: -20px;
+  padding: 15px 9px 19px 0px;
+  border-radius: 0px 5px 5px 0px;
+  float: right;
+  position: relative;
+  right: 1%;
+  top: -.2%;
+  z-index: 5;
+  cursor: pointer;
+}
+
+.form-control {
+  width: 100%;
+  height: 50px; 
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff; 
+  margin-bottom: 15px; }
+
+.select-gender {
+  width: 100%;
+  height: 50px; 
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #131212;
+  border-radius: 5px;
+  background-color: #fff; 
+}
+
+.btn-primary {
+  display: block;
+  width: 100%;
+  height: 50px;
+  padding: 0 20px;
+  background-color: #ff9900;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #ff9900;
+}

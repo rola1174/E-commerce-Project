@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Abel|Playfair+Display');
+
+/* * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+} */
+body{
+  background-color: #ff9900;
+
+}
+.overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.f6 {
+  width:500px;
+  min-height: 550px;
+  border-radius: 5px;
+  box-shadow: 0 9px 50px hsla(0, 3%, 6%, 0.31);
+  padding: 2%;
+  background-image: linear-gradient(-225deg, #2f4a3f 50%, #fac55c 50%);
+
+
+}
+
+header h2 {
+  font-size: 2.5rem;
+  font-family: 'Playfair Display', serif;
+  color: #0a0a0a;
+}
+
+#eye {
+  background: transparent;
+  color: #131313;
+  margin-left: 30px;
+  padding: 30px;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  z-index: 5;
+  font-size: 18px;
+}
+
+.form-input {
+  width: 250px;
+  height: 50px;
+  margin-top:2%;
+  padding: 15px;
+  font-size: 16px;
+  color: #0d0d0d;
+  outline:auto;
+  border-radius: 12px;
+  gap: 30px;
+  transition: 0.2s linear;
+  text-align: center;
+  align-items: center;
+}
+
+.input-item {
+  display: flex;
+  align-items: center;
+  /* gap:135px; */
+
+  
+}
+
+.button-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+button {
+  height: 50px;
+  padding: 0 20px;
+  background: #ff9900;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.2s linear;
+}
+
+button:hover {
+  transform: translateY(3px);
+}
